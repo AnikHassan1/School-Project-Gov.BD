@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+}
+.header{
+    background-color: #ffffff;
+    display: block;
+    padding: 20px 0px;
+}
+.container{
+    max-width: 1440px;
+    padding: 0px 20px;
+}
+.header-one {
+    display: inline-block;
+    width: 10%;
+    vertical-align: middle;
+}
+.header-one img {
+    width: 50%;
+}
+.header-two {
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+}
+.header-tree {
+    display: inline-block;
+    vertical-align: middle;
+}
+/* Menu Bar */
+
+.menu-ver{
+    background-color:#e3e8eb;
+}
+.menu-ver {
+    background-color: #e3e8eb;
+}
+.menu-ver ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+    padding: 10px 0;
+}
+ul {
+    margin: 0px;
+    padding: 0px 0px;
+}
+.menu-ver ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.menu-ver ul .first-title {
+    background-color: #020085;
+    position: relative;
+}
+.menu-ver ul .first-title a {
+    color: #ffffff;
+    padding: 0 10px;
+}
+.menu-ver ul .sub-menu {
+    position: relative;
+}
+.menu-ver ul .submenu {
+    display: none;
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+}
+.sub-menu:hover .submenu {
+    display: block;
+}
+.academi:hover .submenu {
+    display: block;
+}
+.Application:hover .submenu {
+    display: block;
+}
+.menu-ver ul .submenu li {
+    display: block;
+    width: 288px;
+    padding: 5px 10px;
+    background: #e3e8eb;
+    margin: 10px 0px;
+}
+.Notice{
+    background-color: #020085;
+    color: white;
+}
+.Notice-Title {
+    padding: 10px 0px;
+    display: flex;
+    gap: 10px;
+    margin: 0px 10px;
+   
+}
+.notice-sub {
+    width: 130px;
+}
+/* Slider */
+.Slider{
+    background-color: #ffffff;
+    display: block;
+    width: 100%;
+}
+
+.Slider-one {
+    display: inline-block;
+}
+.Slider-one img{
+    height: 500px;
+}
+.slider-sub2 {
+    display: inline-block;
+     margin-left: 35px;
+    border: 1px solid #020085;
+  
+}
+
+.last-box {
+    background-color: #020085;
+    margin-top: 10px;
+    color: white;
+    padding: 5px 5px;
+
+}
+.box-title {
+    background-color: #020085;
+    color: white;
+    padding: 5px 10px;
+}
+.box {
+    padding: 5px 5px;
+    border-bottom: 1px solid #020085;
+    margin: 0px 5px;
+    color: rgb(121, 103, 103);
+}
+.box p {
+    color: #020085;
+}
+.box-sub-title{
+    width: 100%;
+   color: white;
+    display: -webkit-inline-box;
+}
+.box-sub1{
+    width: 25%;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #ff9a00;
+}
+.box-sub2{
+    width: 25%;
+    background-color: #020085;
+    text-align: center;
+    padding-top: 10px;
+}
+
