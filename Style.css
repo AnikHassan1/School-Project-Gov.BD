@@ -378,23 +378,51 @@ ul {
 }
 /*  */
 .Footer {
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    /* display: flex;
+    justify-content: space-between; */
     margin: 20px 75px;
+    
+}
+.footer-one{
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
 }
 
 .footer-title {
     padding: 5px 0px;
-
 }
 
 .ul-footer {
     padding: 20px;
-    font-size: 20px;
+  
 }
 
 .link-footer {
-    padding: 10px;
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+    margin-top: 64px;
+}
+.htwo{
+    display: flex;
+    gap: 5px;
+    border-bottom: 2px solid #020085;
+    width: 70px;
+}
+.implement{
+    display: inline-block;
+    vertical-align: middle;
+}
+.implement h2{
+    margin-top: 10px;
+    border-bottom: 2px solid #020085;
+    padding-top: 10px;
+    width: 50px;
+}
+.implement img{
+    padding-top: 20px;
 }
 
 .img-2 {
@@ -407,8 +435,16 @@ ul {
     background-color: blue;
 }
 .section-last-title {
+    display: flex;
+    gap: 10px;
     padding: 20px 20px;
     margin: 20px 75px;
+}
+.section-last-title img {
+    height: 30px;
+    width: 30px;
+    background: white;
+    border-radius: 10px;
 }
 .icon {
     display: flex;
@@ -416,8 +452,8 @@ ul {
     padding: 5px;
 }
 .icon img {
-    width: 30px;
-    height: 28px;
+    width: 25px;
+    height: 24px;
 }
 .img-footer {
     width: 30px;
@@ -426,4 +462,16 @@ ul {
 }
 .img-size {
     padding: 30px 40px;
+}
+.paste{
+    display: flex;
+    gap: 10px;
+}
+.paste-one{
+    display: flex;
+    gap: 10px;
+}
+.img-paste{
+    height: 30px;
+    width: 30px;
 }
